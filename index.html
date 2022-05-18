@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Audio player</title>
+</head>
+<!-- REVER AULA ANIMAÇÃO COM HTML -->
+<body>
+    <section class="music">
+        <div class="music-container">
+            <div class="music-info">
+                <div class="photo">
+                    <audio id="audio">
+                        <source id="faixa" src="assets/musica1.mp3" type="audio/mpeg"> 
+                    </audio>
+                </div>
+                <h1 id="titulo">Girassol</h1>
+                <p id="actor">Whindersson nunes</p>
+            </div>
+
+            <div class="controls">
+                <i onclick="back()" class="fa-solid fa-backward-step"></i>
+                <i onclick="play()" class="fa-solid fa-circle-play"></i>
+                <i onclick="next()" class="fa-solid fa-forward-step"></i>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/d94da5d75d.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
